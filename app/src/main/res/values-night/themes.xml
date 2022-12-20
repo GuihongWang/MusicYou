@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MusicYou" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@android:color/system_neutral1_900</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/ic_splash_screen_night</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">500</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

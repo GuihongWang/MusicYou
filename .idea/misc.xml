@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v24/ic_launcher_monochrome.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v24/ic_skip_next.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v24/ic_splash_screen_night.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v31/ic_launcher_background.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v31/ic_launcher_foreground.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v31/ic_launcher_monochrome.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v31/ic_splash_screen.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable-v31/ic_splash_screen_night.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/baseline_pause_24.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/baseline_play_arrow_24.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_animated_play_pause.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_animated_skip_next.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_app_icon.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_launcher_background.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_play_pause.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_skip_next.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/ic_splash_screen.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/outline_skip_next_24.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/drawable/outline_skip_previous_24.xml" value="0.2125" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/font/lalezar.xml" value="0.3251282051282051" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.212" />
+        <entry key="..\:/Users/kyant/AndroidStudioProjects/MusicYou/app/src/main/res/xml/locales_config.xml" value="0.20199275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
