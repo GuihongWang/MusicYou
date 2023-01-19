@@ -28,3 +28,11 @@ Windows 版(未测试)
 
 os=pc;appver=2.10.2.200154;osver=Microsoft-Windows-10--build-19041-64bit;deviceId=0000000000000000000000000000000000000000000000000000;mode=To%20be%20filled%20by%20O.E.M.;channel=netease
 
+
+### login 
+
+
+如果你使用手机号登陆 而且是中国大陆手机号 可以略过中国修改
+
+
+修改第23行的86为你需要登陆的国家手机号 （例：香港是852）
