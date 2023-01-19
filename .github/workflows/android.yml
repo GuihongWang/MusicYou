@@ -22,6 +22,5 @@ jobs:
 
     - name: Build with Gradle
       run: 
-        cd D:\a\MusicYou\MusicYou
-        gradlew assemble
+        D:\a\MusicYou\MusicYou\gradlew.bat assemble
         
