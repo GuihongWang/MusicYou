@@ -30,7 +30,7 @@ object UserApi {
 
     suspend fun getUserPlaylists(
         uid: Long?,
-        limit: Long = 30,
+        limit: Long = 10000,
         offset: Long = 0,
         cookie: String? = null
     ): List<Playlist> {
