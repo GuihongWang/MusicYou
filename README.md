@@ -9,7 +9,7 @@ Unofficial NetEase Cloud Music player
 
 app/src/main/java/com/kyant/ncmapi/下的两个文件
 
-Apiaction 和login 
+Apiaction login  userapi
 
 ### api
 修改request（在这个仓库已经修改好 可以直接构建使用）
@@ -27,6 +27,16 @@ Windows 版(未测试)
 
 
 os=pc;appver=2.10.2.200154;osver=Microsoft-Windows-10--build-19041-64bit;deviceId=0000000000000000000000000000000000000000000000000000;mode=To%20be%20filled%20by%20O.E.M.;channel=netease
+
+
+### userapi 
+修复我喜欢的音乐报错bug
+
+
+（在这个仓库已经修改好 可以直接构建使用）
+
+
+修改第33行 将30这个值修改成10000
 
 
 ### login 
