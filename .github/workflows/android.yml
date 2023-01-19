@@ -21,4 +21,8 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      run: gradlew assemble
+      run: 
+        chdir
+        dir
+        gradlew assemble
+        
