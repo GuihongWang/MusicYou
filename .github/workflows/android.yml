@@ -21,4 +21,4 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      run: gradlew.bat assemble
+      run: gradlew assemble
