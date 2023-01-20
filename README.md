@@ -16,7 +16,7 @@ Apiaction login  userapi
 
 # 我们推荐你对这一步的deviceId进行修改 为了避免风控
 
-Linux命令 cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 32
+Linux命令 cat /dev/urandom | tr -dc A-Z0-9 | head -c 32
 
 
 将那32个1换成生成的内容
