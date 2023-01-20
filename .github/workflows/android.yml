@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      run: 
+      run: |
         chmod 777 gradlew
         ./gradlew assemble
         
