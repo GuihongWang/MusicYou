@@ -9,7 +9,7 @@ import kotlinx.serialization.json.Json
 
 val client = HttpClient(CIO) {
     install(HttpTimeout) {
-        requestTimeoutMillis = 5000
+        requestTimeoutMillis = 10000
     }
     install(ContentNegotiation) {
         json(
