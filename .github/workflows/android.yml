@@ -22,5 +22,6 @@ jobs:
 
     - name: Build with Gradle
       run: 
+        chmod 777 gradlew
         ./gradlew assemble
         
