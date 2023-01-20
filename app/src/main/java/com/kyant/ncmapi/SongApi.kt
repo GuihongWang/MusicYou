@@ -21,7 +21,7 @@ import kotlinx.serialization.json.put
 object SongApi {
     fun getDetail(
         vararg ids: Long?,
-        limit: Int = 50,
+        limit: Int = 100,
         cookie: String? = null
     ) = PagingData(limit = limit) { page ->
         if (page * limit <= ids.size) {
