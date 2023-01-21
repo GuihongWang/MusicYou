@@ -27,7 +27,7 @@ internal suspend fun <T> String.apiGet(
     val url = Url(this)
     val body = client.get(url) {
         contentType(ContentType.Application.Json)
-        header("Cookie", "${cookie}os=uwp;appver=1.4.1;osver=10.0.19041.1;deviceId=11111111111111111111111111111111;")
+        header("Cookie", "${cookie}os=uwp;appver=1.4.1;osver=10.0.19041.1;")
         params()
     }.bodyAsText()
     try {
@@ -53,7 +53,7 @@ internal suspend fun <T> String.apiPost(
     val path = url.encodedPath.replace("eapi", "api")
     val body = client.post(url) {
         contentType(ContentType.Application.Json)
-        header("Cookie", "${cookie}os=uwp;appver=1.4.1;osver=10.0.19041.1;deviceId=11111111111111111111111111111111;")
+        header("Cookie", "${cookie}os=uwp;appver=1.4.1;osver=10.0.19041.1;")
         parameter(
             "params",
             "$path-36cd479b6b5-$queries-36cd479b6b5-${"nobody${path}use${queries}md5forencrypt".toMD5Hex()}"
@@ -82,7 +82,7 @@ internal suspend fun <T> String.apiPostWithCookieReturned(
     val path = url.encodedPath.replace("eapi", "api")
     val response = client.post(url) {
         contentType(ContentType.Application.Json)
-        header("Cookie", "os=uwp;appver=1.4.1;osver=10.0.19041.1;deviceId=11111111111111111111111111111111;")
+        header("Cookie", "os=uwp;appver=1.4.1;osver=10.0.19041.1;")
         parameter(
             "params",
             "$path-36cd479b6b5-$queries-36cd479b6b5-${"nobody${path}use${queries}md5forencrypt".toMD5Hex()}"
