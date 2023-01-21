@@ -14,7 +14,9 @@ Apiaction login  userapi
 ## api
 修改request（在这个仓库已经修改好 可以直接构建使用）
 
-# 我们推荐你对这一步的deviceId进行修改 为了避免风控
+#### 我们已经不推荐你对这一步的deviceId进行修改 因为我们去除了跟踪id 但是为了避免风控
+
+详细参考![commit](https://github.com/GuihongWang/MusicYou/commit/5fca4b9b0c5e13e6370a64358fdc03d27ce8f07f)
 
 Linux命令 cat /dev/urandom | tr -dc A-Z0-9 | head -c 32
 
@@ -56,12 +58,11 @@ os=pc;appver=2.10.2.200154;osver=Microsoft-Windows-10--build-19041-64bit;deviceI
 
 # 构建须知
 
-linux无法构建 具体是gradlew的问题 只能使用Windows构建
 
-如果你真的没钱购买Windows或者构建不了 我推介你直接去下release
+神秘邀请函(构建命令)：gradlew assembleRelease
 
-神秘邀请函(构建命令)：gradlew.bat assembleRelease
 
 构建的apk会放在\app\build\outputs\apk\release文件夹下
+
 
 构建得到的apk需要自行签名（可用MT管理器）
