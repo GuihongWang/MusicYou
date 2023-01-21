@@ -10,12 +10,14 @@ object LyricsApi {
 
         return "https://music.163.com/api/song/lyric".apiGet(
             {
-                parameter("os", "uwp")
                 parameter("id", id)
-                parameter("lv", -1)
-                parameter("kv", -1)
+                parameter("_nmclfl", 1)
                 parameter("tv", -1)
+                parameter("lv", -1)
+                parameter("rv", -1)
+                parameter("kv", -1)
             },
+            cookie = "os=pc"
         ) {
             it obj "lrc" content "lyric"
         }
