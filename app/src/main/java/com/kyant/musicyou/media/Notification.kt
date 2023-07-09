@@ -31,7 +31,7 @@ fun Context.createMediaStyleNotification(mediaSession: MediaSession): Notificati
         .setCancelButtonIntent(
             MediaButtonReceiver.buildMediaButtonPendingIntent(this, PlaybackStateCompat.ACTION_STOP)
         )
-        .setShowActionsInCompactView(0, 1, 2)
+        .setShowActionsInCompactView()
     return androidx.core.app.NotificationCompat.Builder(this, "music")
         .setStyle(mediaStyle)
         .setSmallIcon(R.drawable.ic_launcher_foreground)
